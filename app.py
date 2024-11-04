@@ -8,6 +8,7 @@ OPENAI_API_KEY = os.getenv("OPENAI_API_KEY")
 
 openai.api_key = OPENAI_API_KEY
 
+#initialize the flask
 app = Flask(__name__)
 app.config["UPLOAD_FOLDER"] = "static"
 
